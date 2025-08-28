@@ -1,0 +1,40 @@
+LYX20250428AFJUB
+LYX20250428AFJCB
+LYX20250428AFJUH
+LYX20250510WSSDE
+
+dwdxa.326.frmuic.com
+zhenbdsu.7215.jydadadacd.top
+cduafiadfha.4856.lidaadhjwwscd.top
+ojfadjkc.4867.mmudaj.top
+
+DE: http://amazon20.caigoubao.cc/640194/LYX/Note.jpg
+
+
+BWSEZDG
+GENERIC
+GENERIC
+
+
+
+pyinstaller -F --noconsole --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" main.py --additional-hooks-dir=.
+
+---
+here
+new: pyinstaller -F --noconsole --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" Generator.py --additional-hooks-dir=.
+win7: py -3.8 -m PyInstaller -F --noconsole --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" Generator.py --additional-hooks-dir=.
+---
+
+pyinstaller -F --noconsole --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" bottom.py --additional-hooks-dir=.
+
+pyinstaller -F --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" main.py --additional-hooks-dir=.
+
+---
+   pyinstaller -F --noconsole --icon=resources/catai_0BD_icon.ico --add-data "resources;resources" --add-data "top.py;." --add-data "bottom.py;." main.py --additional-hooks-dir=.
+---
+
+
+---
+
+pyinstaller -F --noconsole netPrice.py --additional-hooks-dir=.
+C:\Python313\python.exe -m PyInstaller -F --noconsole netPrice.py --additional-hooks-dir=.

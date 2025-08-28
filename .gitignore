@@ -1,0 +1,5 @@
+build/
+dist/
+xlsx/
+temp/
+excel_process_exe/

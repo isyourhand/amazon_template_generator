@@ -1,0 +1,62 @@
+新版不同，
+
+1. 新增加了 lifestyle1-10
+
+2. special_features 做出改变，变成固定值，新增到 12 列
+
+3. water_resistance_level 从 Waterproof 修改成 water_resistant 
+
+4. seasons 1-4 改为随机值
+
+5. neck_style，sleeve_type，pattern_name 的写入逻辑变成‘随机’或者‘指定选择’。
+leg_style 的选择变成随机。
+
+6. 
+- 新增 model，写入逻辑是，如果是母 sku，获取随机词，长度大概在35个以内。
+- model_name 的写入逻辑修改为，如果是母 sku，获取随机词，长度大概在115个以内。
+- part_number 的写入逻辑修改为，如果是母 sku，获取随机词，长度大概在30个以内，然后再加上 4 位数的随机数。
+
+7. manufacturer 的写入逻辑变为 brand_name + feed_product_type + "Factory"
+
+8. 新增加 shapewear_size，shapewear_body_type，shapewear_height_type
+
+9. weave_type 的随机值更正为 Woven，Knit
+
+10. 新增加 theme，写入逻辑是随机值
+
+11. lifecycle_supply_type 写入逻辑变为随机值
+
+12. 新增 platinum_keywords 1-5，生成逻辑是，获取随机词，长度大概在 45 个以内。
+
+13. fit_type 新增加到 3 列。
+
+14. 新增 occasion
+
+16. fit_type 改成固定值，不再选择（宽松紧身）
+
+17. top_style 不再选择，改为随机值（防晒衣）
+
+18. pocket_description 不再选择，改成随机值（
+
+19. lining_description 变成随机值，还需要手动改吗
+
+20. 新增 occasion
+
+21. item_weight 随机范围调整到 100-250
+
+22. style_name 去除，改为随机值（休闲，现代，复古）
+
+
+---
+
+DE：
+
+1. 为什么没有 leg_style
+
+#####
+
+item_type_name  我使用固定值（目标群体 + 品类）
+
+age_group 和 department_name 更加符合官方建议词
+
+填写 size_class 时根据尺寸判断是数字（Numerisch）还是字母（Alpha）
